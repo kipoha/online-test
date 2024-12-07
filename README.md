@@ -12,6 +12,7 @@ Mac/Linux:
 python3 -m venv .venv
 ```
 
+---
 
 2. Activate the Virtual Environment
 
@@ -25,6 +26,7 @@ Mac/Linux:
 source .venv/bin/activate
 ```
 
+---
 
 3. Install Dependencies
 
@@ -37,6 +39,8 @@ Mac/Linux:
 ```bash
 pip3 install -r requirements.txt
 ```
+
+---
 
 
 4. Migrate the Database
@@ -53,6 +57,7 @@ python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
+---
 
 5. Create a Superuser
 
@@ -66,6 +71,7 @@ Mac/Linux:
 python3 manage.py createsuperuser
 ```
 
+---
 
 6. Run the Development Server
 
